@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
   <header>
     <nav class="navbar navbar-dark navbar-expand bg-dark text-light no-select">
       <a class="navbar-brand ms-3" href="#">
@@ -27,8 +28,31 @@
   <main>
     <div class="container-fluid">
       <div class="row">
+
         <div class="col-12">
           <div id="app"></div>
+        </div>
+        <div class="col-md-3 m-2">
+          <p id="quarters">$0</p>
+          <img id="quarters" onclick="app.vmController.addMoney(quarters)"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmAY1-TYFwmceJ2VzXTm7yoaU8-QKQBNbLsg&usqp=CAU"
+            alt="quarter">
+        </div>
+        <div class="col-md-3 m-2">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6bg-76BIY3LwFScZv0suqyRzii4dfrLzcHQ&usqp=CAU"
+            alt="kit-kat">
+          <button onclick="">$1.50</button>
+        </div>
+        <div class="col-md-3 m-2"><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNL_TQ_ZeZovaPb_5D_KO9rtvue601w8aQ3w&usqp=CAU"
+            alt="Skittles">
+
+          <button onclick="">$1.75</button>
+        </div>
+        <div class="col-md-3 m-2"><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtCIGsjwxEs-2zUQMrLWZOTAFPZsgdtcEI2A&usqp=CAU"
+            alt="Nerds">
+          <button onclick="">$1.00</button>
         </div>
       </div>
     </div>
